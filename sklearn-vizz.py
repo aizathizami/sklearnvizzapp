@@ -21,15 +21,15 @@ from sklearn.metrics import classification_report
 st.title('Machine Learning - CLASSIFICATION')
 
 st.sidebar.write("""
-This is a my first web app demo with sample codes provided by 
-
+This is my first web app demo with sample codes provided by """)
 st.sidebar.write("<a href='https://www.linkedin.com/in/yong-poh-yu/'>Dr. Yong Poh Yu </a>", unsafe_allow_html=True)
+st.sidebar.write("""
 using python libraries such as Streamlit, Sklearn etc
 """)
 
 st.sidebar.write ("For more info, please contact:")
 
-st.sidebar.write("<a href='https://www.linkedin.com/in/yong-poh-yu/'>Dr. Yong Poh Yu </a>", unsafe_allow_html=True)
+st.sidebar.write("<a href='https://www.linkedin.com/in/aizat-hizami-b57345b9'>Aizat Hizami </a>", unsafe_allow_html=True)
 
 
 choice = st.sidebar.radio(
